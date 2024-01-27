@@ -7,9 +7,6 @@ G = '\033[92;1m'
 #####_____Folder-Setup_____#####
 try:
 	os.makedirs('/sdcard/IMTIAZ')
-except:
-		pass
-sys.stdout.write('\x1b]2;IMTIAZ-G\x07')
 #<<_________[ LOGO ]_________>>#
 logo = (f"""
   {R}MMM.MMq.        db      `7MN.   `7MF'     db
